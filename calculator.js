@@ -2,7 +2,7 @@ function button(numberInput){
     disp.innerHTML += (numberInput)
 }
 function cl(){
-    disp.innerHTML = ''
+    disp.innerHTML = disp.innerHTML.slice(0,-1)
 }
 function ac(){
     disp.innerHTML = ''
